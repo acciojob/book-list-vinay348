@@ -8,6 +8,47 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Book List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1><span style="color: black;">My</span><span style="color: blue;">Book</span>List</h1>
+
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" id="title" />
+
+    <label>Author</label>
+    <input type="text" id="author" />
+
+    <label>ISBN#</label>
+    <input type="text" id="isbn" />
+
+    <button id="submit">Add Book</button>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>ISBN#</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="book-list"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
